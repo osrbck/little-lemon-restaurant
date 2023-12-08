@@ -35,9 +35,28 @@ nav li {
   width: 64px;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto; /* Set left and right margins to 'auto' for centering */
+  padding: 10%;
+}
+
 main {
-  background-color: #ecf0f1;
+  background-color: #ffffff;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 400px;
+}
+
+.hero-image {
+  width: 700px;
+  border-radius: 30px;
 }
 
 footer {
