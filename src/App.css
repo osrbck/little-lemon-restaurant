@@ -10,36 +10,38 @@ header {
   color: #fff;
   text-align: center;
 }
-
 nav {
-  background-color: #2ecc71;
+  background-color: #f4ce14;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
-
 nav li {
   margin-right: 20px;
 }
-
+.nav-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
 .nav-logo {
   width: 64px;
 }
+
 main {
   background-color: #ecf0f1;
   padding: 20px;
 }
 
 footer {
-  background-color: #34495e;
+  background-color: rgb(73, 94, 87);
   color: #fff;
   padding: 20px;
   text-align: center;
