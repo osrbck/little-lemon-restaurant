@@ -12,21 +12,13 @@ header {
 }
 nav {
   background-color: #f4ce14;
-  padding: 20px;
+  padding: 20px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-nav li {
-  margin-right: 20px;
-}
 .nav-link {
+  margin-right: 50px;
   color: #333333;
   text-decoration: none;
   font-weight: bold;
@@ -68,4 +60,10 @@ footer {
 
 footer div {
   margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
 }
