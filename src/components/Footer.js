@@ -1,26 +1,39 @@
-import React from 'react';
-
+import React from 'react'
+import logo from '../images/Logo .svg'
 function Footer() {
   return (
     <footer>
-      <div>
-        <h2>Contact Us</h2>
-        <p>Little Palm Restaurant</p>
-        <p>1234 Main Street, Cityville</p>
-        <p>Email: info@littlepalmrestaurant.com</p>
-        <p>Phone: (123) 456-7890</p>
-      </div>
+        <section>
+            <div className='company-info'>
+                <img src={logo} alt=''/>
+                <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servered with a modern twist.</p>
+            </div>
+            <div>
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href='/'>About</a></li>
+                    <li><a href='/reservations'>Reservations</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>123 Towncity, USA</li>
+                    <li>++ 0123 456 789</li>
+                    <li>little@lemon.com</li>
+                </ul>
+            </div>
 
-      <div>
-        <h2>Follow Us</h2>
-        {/* Add social media icons or links here */}
-      </div>
-
-      <div>
-        <p>&copy; 2023 Little Palm Restaurant. All rights reserved.</p>
-      </div>
+            <div>
+                <h3>Social Media Links</h3>
+                <ul>
+                    <li><a href='/'>Instagram</a></li>
+                    <li><a href='/'>Youtube</a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
