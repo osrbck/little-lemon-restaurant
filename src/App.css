@@ -68,7 +68,7 @@ nav ul li a:hover {
 /* header section */
 
 .header {
-  background-color: #495e57;
+  background-color: #a9c8be;
   padding: 40px;
 }
 
@@ -81,6 +81,7 @@ nav ul li a:hover {
 h2 {
   color: #f4ce14;
   font-size: 40px;
+  border: 2px;
 }
 
 h3 {

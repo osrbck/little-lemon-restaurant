@@ -18,8 +18,8 @@ function Footer() {
             <div>
                 <h3>Contact</h3>
                 <ul>
-                    <li>123 Towncity, USA</li>
-                    <li>++ 0123 456 789</li>
+                    <li>Mersin, Turkey</li>
+                    <li>+90 500 500 55 00</li>
                     <li>little@lemon.com</li>
                 </ul>
             </div>
