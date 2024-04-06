@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../images/Logo .svg'
+import logo from '../images/little-palm-logo.png'
 function Footer() {
   return (
     <footer>
         <section>
             <div className='company-info'>
-                <img src={logo} alt=''/>
                 <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servered with a modern twist.</p>
+                <img src={logo} alt='footer-logo'/>
             </div>
             <div>
                 <h3>Important Links</h3>

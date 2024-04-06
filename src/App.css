@@ -81,7 +81,7 @@ nav ul li a:hover {
 h2 {
   color: #f4ce14;
   font-size: 40px;
-  border: 2px;
+  text-shadow: 0 2px 3px #495e57;
 }
 
 h3 {
@@ -222,7 +222,6 @@ footer section {
 }
 
 .company-info img {
-  margin-top: 12px;
   cursor: pointer;
   width: 200px;
 }

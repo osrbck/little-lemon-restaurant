@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../images/Logo .svg'
+import logo from '../images/little-palm-logo.png'
 function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
@@ -8,7 +8,7 @@ function Nav() {
   return (
     <nav className={`navbar ${menuOpen ? "open" : ""}`}>
         <a href='/' className='logo'>
-            <img src={logo} alt='logo'/>
+            <img src={logo} style={{width:200}} alt='logo'/>
         </a>
 
         {/* mobile navbar */}
